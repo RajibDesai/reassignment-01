@@ -110,13 +110,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 0px;
-    margin: 0px 500px 0px 500px;
+    margin: 0px 500px 130px 500px;
     padding-top: 10px;
 }
 
 .donate-group {
     display: flex;
-    margin: 200px 150px 80px 150px;
+    margin: 250px 150px 80px 150px;
 
 
 }
@@ -131,7 +131,6 @@ body {
 }
 
 #testimonials {
-    /* margin-top: 40px; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -171,4 +170,46 @@ body {
 
 .update-title {
     text-align: center;
+    margin: 50px 500px 50px 500px;
+
+}
+
+#update-section {
+    font-size: 1.3rem;
+    color: goldenrod;
+}
+
+#update-field {
+    margin: 50px 400px 50px 400px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(233, 222, 214);
+}
+
+.email-submit {
+    height: 35px;
+    width: 250px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.submit {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.footer-section {
+    text-align: center;
+    margin-top: 150px;
+    background-color: black;
+    height: 400px;
+    color: rgb(223, 117, 67);
+
+}
+
+.footer-div {
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
 }

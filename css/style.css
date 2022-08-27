@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Prompt', sans-serif;
     margin: 0px;
+    background-color: bisque;
 }
 
 .bg-images {
@@ -40,17 +41,18 @@ body {
 .donation {
     margin-left: 500px;
     margin-right: 500px;
+    padding-top: 5px;
 
 }
 
 .donation-amount {
     background-color: aliceblue;
     font-size: 1.3rem;
-    margin-top: 100px;
+    margin-top: 5px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
     width: 1700px;
 
 }
@@ -96,14 +98,54 @@ body {
 }
 
 .donate-title {
+    /* margin-top: auto; */
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(252, 250, 251);
+    font-size: 1.3rem;
+    margin-top: 5px;
 }
 
-/* .donate-heading {} */
+.donate-heading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+    margin: 0px 500px 0px 500px;
+    padding-top: 10px;
+}
 
 .donate-group {
     display: flex;
-    margin: 200px;
-    text-align: center;
+    margin: 200px 150px 0px 150px;
+
+
+}
+
+.donate-package {
+    align-items: center;
+    text-align: left;
+    box-shadow: 20px 20px 50px 10px rgb(238, 234, 234) inset;
+    border: 3px solid rgb(235, 221, 182);
+    padding: 30px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+
+#testimonials {
+    /* margin-top: 40px; */
+    background-color: rgb(233, 222, 214);
+}
+
+.donor-title {
+    display: flex;
+    padding: 10px;
+    box-shadow: 20px 20px 50px 10px rgb(248, 244, 245) inset;
+}
+
+.donor-div {
+    display: flex;
+
+}
+
+.donor-details {
+    padding: 10px;
 }
